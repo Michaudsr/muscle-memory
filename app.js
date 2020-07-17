@@ -109,4 +109,46 @@ console.log(paraFive);
 paraFive.textContent = 'Damien Lillard';
 
 
+const containerSix = document.createElement('div');
+console.log(containerSix);
+containerSix.classList.add('container-six');
+
+const sectionSix = document.createElement('h2');
+sectionSix.setAttribute('id','section-six');
+sectionSix.textContent = 'Rockets';
+console.log(sectionSix);
+
+const paraSix = document.createElement('p');
+paraSix.classList.add('paragraph-six');
+paraSix.textContent = 'James Harden';
+console.log(paraSix);
+
+const body = document.querySelector('body');
+console.log(body);
+
+body.appendChild(containerSix);
+containerSix.appendChild(sectionSix);
+containerSix.appendChild(paraSix);
+
+
+
+const containerSeven = document.createElement('div');
+console.log(containerSeven);
+containerSeven.classList.add('container-seven');
+
+const sectionSeven = document.createElement('h2');
+sectionSeven.setAttribute('id','section-seven');
+sectionSeven.textContent = 'Bulls';
+console.log(sectionSeven);
+
+const paraSeven = document.createElement('p');
+paraSeven.classList.add('paragraph-seven');
+paraSeven.textContent = 'Michael Jordan';
+console.log(paraSeven);
+
+
+body.appendChild(sectionSeven);
+containerSeven.appendChild(paraSeven);
+containerSeven.appendChild(paraSeven);
+
 
