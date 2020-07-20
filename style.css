@@ -1,0 +1,15 @@
+.container-one {
+    border: 5px solid purple; 
+    height: 250px;
+    width: 4000px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-two {
+    border: 5px solid gold;
+    height: 300px;
+    width: 250px;
+
+}
